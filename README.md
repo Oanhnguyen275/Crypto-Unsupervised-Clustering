@@ -15,16 +15,32 @@ crypto_market_data.csv: A dataset containing historical market data of various c
 
 2. Principal Component Analysis (PCA) is applied to reduce the dimensionality of the market data, transforming it into principal components that capture the most variance. 
 
-📈 Visualizations
+**Visualizations**
+
+This project includes multiple visualizations to help interpret cryptocurrency market behaviors and clustering results:
+
+Market Data
+A chart of the cryptocurrency market data showing trends over time.
+<img width="798" height="399" alt="Screenshot 2568-10-21 at 12 18 37 AM" src="https://github.com/user-attachments/assets/347ad902-3f5f-439b-a750-1907022ed1f8" />
+
+
+Elbow Curve Plot (PCA)
+Similar to the K-Means elbow plot, but applied to principal components to visualize optimal clustering in reduced dimensions.
+<img width="706" height="302" alt="Screenshot 2568-10-21 at 12 20 15 AM" src="https://github.com/user-attachments/assets/fd01100e-e96b-4018-b514-fdc5b29619fc" />
+
+Clusters Scatter Plot (PCA)
+<img width="705" height="303" alt="Screenshot 2568-10-21 at 12 21 51 AM" src="https://github.com/user-attachments/assets/c38bfb58-13c1-44e8-8388-2061c0ede4a5" />
 
 Visualize and Compare the Results
+<img width="1402" height="300" alt="Screenshot 2568-10-21 at 12 27 03 AM" src="https://github.com/user-attachments/assets/aa391b6e-ae67-47c7-a8be-946086ee5fa7" />
+<img width="1399" height="297" alt="Screenshot 2568-10-21 at 12 28 34 AM" src="https://github.com/user-attachments/assets/b52affdd-ec99-47ac-9d19-c35e66b45088" />
 
-Elbow Plot: To determine the optimal number of clusters.
-<img width="1402" height="300" alt="Screenshot 2568-10-21 at 12 27 03 AM" src="https://github.com/user-attachments/assets/197065e0-a9c9-466f-9c0c-c7e156d7838f" />
+**Insights**
 
-PCA Scatter Plot: To visualize the distribution of cryptocurrencies in the reduced 2D space.
-<img width="705" height="303" alt="Screenshot 2568-10-21 at 12 21 51 AM" src="https://github.com/user-attachments/assets/80e73f95-db66-4f8e-b0a3-62eed464fc20" />
+By analyzing the clusters, you can:
 
-Clustered Scatter Plot: To display the cryptocurrencies grouped into clusters.
+Identify groups of cryptocurrencies with similar market behaviors.
 
-These visualizations are generated using Matplotlib and Seaborn libraries.
+Understand the underlying factors influencing cryptocurrency markets.
+
+Make informed decisions based on the clustering results.
